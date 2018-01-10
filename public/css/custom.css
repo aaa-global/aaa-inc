@@ -1,0 +1,73 @@
+/**! Custom Styles Go Here (for easy template updating) **/
+
+/**! Custom Styles Go Here (for easy template updating) **/
+
+
+body {color: #000;}
+
+.menu > li ul {
+   width: auto;
+   min-width: 5em;
+   background: #242a2d;
+   list-style: decimal-leading-zero;
+   padding-right: 15px;
+}
+
+.menu > li.wide ul {
+   min-width: 28em;
+   background: #242a2d;
+}
+
+.menu > li.medium ul {
+   min-width: 11em;
+   background: #242a2d;
+}
+
+.menu > li > ul:before {color: #242a2d; top: 0em;}
+
+.menu > li > ul a {
+    padding: 0 1em .5em 1em;
+    display: inline-block;
+    color: #fff;
+    opacity: 1;
+}
+
+.nav-bar.bg--dark .menu > li ul a, .nav-bar.nav--transparent .menu > li ul a {
+    color: #ccc;
+}
+
+h2.boxed {background: #242a2d; padding: 20px;}
+
+.service-element, .case-study-element {
+    border-radius: 4px;
+    box-shadow: 1px 2px 6px #bbb;
+}
+
+.boxed.boxed--border {
+    border: 1px solid #333;
+}
+
+.detailed-header hr {
+  margin-bottom: 30px;
+}
+
+.detailed-header h4 {
+  margin-bottom: 15px;
+  opacity: .5;
+}
+
+section.section--pullup h1 {
+    margin-bottom: .125em;
+    font-size: 100px;
+}
+
+.detailed-header p {
+  opacity: .85;
+}
+
+.detailed-header h6 {font-size: 0.85em; opacity: 1; color: #fff;}
+
+hr.dark {
+  border-top-color: #282970;
+  border-bottom-color: #3d3ea8;
+}
